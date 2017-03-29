@@ -1,0 +1,41 @@
+.gifs {
+	width: 300px;
+	height: 150px;
+	border-radius: 5px;
+}
+
+#interact {
+	margin: 15px;
+}
+
+#inputbuttons {
+	background-color: #BADA55;
+}
+
+#submit, button {
+	font-family: 'Raleway', sans-serif;
+}
+
+hr {
+	width: 70%;
+}
+
+button {
+	margin: 5px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+h1 {
+	font-family: 'Macondo', cursive;
+	font-size: 50px;
+	color: #000;
+}
+
+.para, .item {
+	width: 350px;
+	height: 200px;
+	position: relative;
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
