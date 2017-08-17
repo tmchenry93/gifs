@@ -28,7 +28,7 @@ $(document).ready(function(){
 	// attach gifs to the div with an id of gifresults	
 	function CallUrl(){	
 		var link = $(this).attr("data-topics");
-		 var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + link + "&api_key=dc6zaTOxFJmzC&limit=10";
+		 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + link + "&api_key=dc6zaTOxFJmzC&limit=10";
 		
 		$.ajax({
 			url: queryURL,
