@@ -12,7 +12,11 @@
 	background-color: #BADA55;
 }
 
-#submit, button {
+#submit {
+	font-family: 'Raleway', sans-serif;
+} 
+
+button {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -32,7 +36,15 @@ h1 {
 	color: #000;
 }
 
-.para, .item {
+.para {
+	width: 350px;
+	height: 200px;
+	position: relative;
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+ .item {
 	width: 350px;
 	height: 200px;
 	position: relative;
