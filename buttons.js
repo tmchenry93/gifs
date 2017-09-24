@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$("#inputbuttons").empty();
 		// create a loop to make the objects within the array buttons (set inside div with id of inputbuttons)
 		for (var i = 0; i < topics.length; i++){
-			var ibuttons = $("<button>");
+			var ibuttons = $("<div>");
 			ibuttons.addClass("topicbutton");
 			ibuttons.attr("data-topics", topics[i]);
 			ibuttons.text(topics[i]);

@@ -5,12 +5,13 @@ body {
 .gifs {
 	width: 250px;
 	height: 125px;
-	/*border-radius: 5%;*/
 	border: 1px solid #000;
 }
 
 #submit {
 	background-color: #e6e1ef;
+	border-radius: 10%;
+	margin-top: 8%;
 } 
 
 #inputbuttons {
@@ -19,15 +20,24 @@ body {
 
 #gifresults {
 	margin-top: 3%;
+	height: 82.5vh;
 	overflow: scroll;
 }
 
-#gifContainer {
-	height: 82.5vh;
+#userinput {
+	width: 80%;
+}
+
+.topicbutton {
+	margin-bottom: 5%;
+}
+
+.topicHeader {
+	font-size: 27.5px;
+	margin-top: 5%;
 }
 
 button {
-	margin: 5px;
 	background-color: #fff;
 	height: 50px;
 	width: 100%;
@@ -36,6 +46,10 @@ button {
 h1 {
 	font-size: 50px;
 	color: #000;
+}
+
+#interact {
+	margin-top: 5%;
 }
 
 .para {
@@ -55,15 +69,18 @@ h1 {
 }
 
 #titleContainer {
-	border-width: 0 0 1px 0;
-	border-style: solid;
-	border-color: #000;
-	box-shadow: 0 5px 0 0 #e6e1ef;
 	height: 17.5vh;
 }
 
 #buttonContainer {
-	height: 85vh;
+	height: 100vh;
 	background-color:  #e6e1ef;
+	position: absolute;
+	top: 0;
+}
+
+#inputbuttons {
+	height: 70vh;
+	overflow: scroll;
 }
 
