@@ -6,6 +6,7 @@ body {
 	width: 250px;
 	height: 125px;
 	border: 1px solid #000;
+	box-shadow: 2.5px 7.5px 7.5px #888888;
 }
 
 #submit {
@@ -25,7 +26,7 @@ body {
 }
 
 #userinput {
-	width: 80%;
+	width: 60%;
 }
 
 .topicbutton {
@@ -34,7 +35,7 @@ body {
 
 .topicHeader {
 	font-size: 27.5px;
-	margin-top: 5%;
+	margin-top: 8%;
 }
 
 button {
@@ -49,7 +50,8 @@ h1 {
 }
 
 #interact {
-	margin-top: 5%;
+	margin-top: 1%;
+	margin-bottom: 5%;
 }
 
 .para {
@@ -69,14 +71,24 @@ h1 {
 }
 
 #titleContainer {
-	height: 17.5vh;
+	height: 10vh;
+	margin-bottom: 1.5%;
 }
 
 #buttonContainer {
 	height: 100vh;
-	background-color:  #e6e1ef;
 	position: absolute;
 	top: 0;
+	background-color: #fff;
+	box-shadow: 2.5px 7.5px 7.5px #888888;
+}
+
+#dividerLine {
+	height: 2px;
+	width: 100%;
+	background-color: #000;
+	margin-top: 8%;
+	margin-bottom: 8%;
 }
 
 #inputbuttons {

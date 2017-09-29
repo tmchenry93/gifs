@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title></title>
+
+	<!-- Linking css pages -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Macondo|Raleway" rel="stylesheet">
@@ -13,60 +15,89 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="buttons.js" type="text/javascript"></script>
 </head>
+
 <body>
 
-<div class="row">
-	<div class="col-xs-2 col-sm-2 col-md-2">
-	</div>
+<div class="container-fluid">
 
-	<div id="titleContainer" class="col-xs-10 col-sm-10 col-md-10">
+	<!-- this row contains the title of the site -->
+	<div class="row">
 
-		<center>
+		<div class="col-xs-2 col-sm-2 col-md-2">
+		</div>
 
-			<h1 style="font-weight: bolder;">Whatever Your Heart Desires</h1>
+		<div id="titleContainer" class="col-xs-10 col-sm-10 col-md-10">
 
-		</center>
+			<center>
+
+				<h1 style="font-weight: bolder;">Whatever Your Heart Desires</h1>
+				<h5> Click the image and watch it come to life </h5>
+
+			</center>
+
+		</div>
+
+		<hr>
 
 	</div>
 
 </div>
 
-<div class="row">
+<div class="container-fluid">
 
-	<div id="buttonContainer" class="col-xs-2 col-sm-2 col-md-2">
-		<center>
-			<p class="topicHeader">
-				Enter in a Topic
-			</p>
+	<!-- this row contains the content and buttons -->
+	<div class="row">
 
-			<div id="interact">
-				<form>
-					<input type="text" id="userinput">
-					<input type="submit" id="submit">
-				</form>
-			</div>
+		<!-- this column contains buttons and user input -->
+		<div id="buttonContainer" class="col-xs-2 col-sm-2 col-md-2">
 
-			<p class="topicHeader">
-				Click a Topic
-			</p>
+			<center>
 
-			<div id="inputbuttons">
-			</div>
-		</center>
-	</div>
+				<p class="topicHeader">
+					Enter in a Topic
+				</p>
 
-	<div class="col-xs-2 col-sm-2 col-md-2">
-	</div>
+				<div id="interact">
 
-	<center>
+					<form>
+
+						<input type="text" id="userinput">
+
+						<input type="submit" id="submit">
+
+					</form>
+
+				</div>
+
+				<div id="dividerLine">
+				</div>
+
+				<p class="topicHeader">
+					Click a Topic
+				</p>
+
+				<div id="inputbuttons">
+				</div>
+
+			</center>
+
+		</div>
+
+		<div class="col-xs-2 col-sm-2 col-md-2">
+		</div>
+
+		<!-- this column contains the actually gifs -->
 		<div id="gifContatiner" class="col-xs-10 col-sm-10 col-md-10">
-		
+			
+			<center>
 			<div id="gifresults">
 			</div>
-		
+			</center>
+
 		</div>
-	</center>
-	
+		
+	</div>
+
 </div>
 
 </body>
