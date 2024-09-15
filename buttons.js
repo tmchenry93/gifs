@@ -34,7 +34,7 @@ $(document).ready(function(){
 	// attach gifs to the div with an id of gifresults	
 	function CallUrl(){	
 		var link = $(this).attr("data-topics");
-		 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + link + "&api_key=dc6zaTOxFJmzC&limit=10";
+		 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + link + "&api_key=fAJzZznQrHjmbZhmk0z8emGofg6gAYpt&limit=10";
 		
 		$.ajax({
 			url: queryURL,
@@ -81,3 +81,52 @@ $(document).ready(function(){
 
 });
 
+let topics = ["orange juice", "running", "pizza"];
+
+function gifAPI(){
+	return(
+		let link = $(this).attr("data-topics");
+		let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + link + "&api_key=fAJzZznQrHjmbZhmk0z8emGofg6gAYpt&limit=10";
+		
+		$.ajax({
+			url: queryURL,
+			method: "GET"
+		}).done(function(response){
+			let apiTopic = response.data;
+		});
+	)
+}
+
+function gitAPI() {
+	const [count, setCount] = useState(0);
+  
+	function handleAPI() {
+	  setCount(
+
+	  );
+	}
+  
+	return (
+	  <div>
+		<h1>Counters that update together</h1>
+		<MyButton count={count} onClick={handleAPI} />
+		<MyButton count={count} onClick={handleAPI} />
+	  </div>
+	);
+  }
+
+function gifContainer(){
+
+}
+
+function searchEngine(){
+	return (
+		<div>
+			<h1>Enter in a Topic</h1>
+			<form>
+				<input type="text" id="userinput">
+				<input type="submit" id="submit">
+			</form>
+		</div>
+	);
+}
