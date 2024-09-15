@@ -60,7 +60,6 @@ $(document).ready(function(){
 		});
 	};
 
-
 	// create a function for the animation to be turned on and off
 	function imageEvent(){
 		var state = $(this).attr("data-state");
@@ -80,53 +79,3 @@ $(document).ready(function(){
 	$(document).on("click", ".gifs", imageEvent);
 
 });
-
-let topics = ["orange juice", "running", "pizza"];
-
-function gifAPI(){
-	return(
-		let link = $(this).attr("data-topics");
-		let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + link + "&api_key=fAJzZznQrHjmbZhmk0z8emGofg6gAYpt&limit=10";
-		
-		$.ajax({
-			url: queryURL,
-			method: "GET"
-		}).done(function(response){
-			let apiTopic = response.data;
-		});
-	)
-}
-
-function gitAPI() {
-	const [count, setCount] = useState(0);
-  
-	function handleAPI() {
-	  setCount(
-
-	  );
-	}
-  
-	return (
-	  <div>
-		<h1>Counters that update together</h1>
-		<MyButton count={count} onClick={handleAPI} />
-		<MyButton count={count} onClick={handleAPI} />
-	  </div>
-	);
-  }
-
-function gifContainer(){
-
-}
-
-function searchEngine(){
-	return (
-		<div>
-			<h1>Enter in a Topic</h1>
-			<form>
-				<input type="text" id="userinput">
-				<input type="submit" id="submit">
-			</form>
-		</div>
-	);
-}
