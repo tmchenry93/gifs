@@ -71,8 +71,13 @@ h1 {
 }
 
 #titleContainer {
-	height: 10vh;
-	margin-bottom: 1.5%;
+	height: 19vh;
+	margin-bottom: 1vh;
+}
+
+#gifContainer {
+	margin-top: 1vh;
+	height: 79vh;
 }
 
 #buttonContainer {
