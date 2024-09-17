@@ -2,11 +2,16 @@ body {
 	font-family: 'Indie Flower', cursive;
 }
 
-.gifs {
-	width: 250px;
-	height: 125px;
-	border: 1px solid #000;
-	box-shadow: 2.5px 7.5px 7.5px #888888;
+h1 {
+	font-size: 50px;
+	color: #000;
+}
+
+/* Title Section */
+
+#titleContainer {
+	height: 19vh;
+	margin-bottom: 1vh;
 }
 
 #submit {
@@ -15,51 +20,24 @@ body {
 	margin-top: 8%;
 } 
 
-#inputbuttons {
-	margin-top: 5%;
+/* Gif Section */
+
+#gifContainer {
+	margin-top: 1vh;
+	height: 79vh;
+}
+
+.gifs {
+	width: 250px;
+	height: 125px;
+	border: 1px solid #000;
+	box-shadow: 2.5px 7.5px 7.5px #888888;
 }
 
 #gifresults {
 	margin-top: 3%;
 	height: 82.5vh;
 	overflow: scroll;
-}
-
-#userinput {
-	width: 60%;
-}
-
-.topicbutton {
-	margin-bottom: 5%;
-}
-
-.topicHeader {
-	font-size: 27.5px;
-	margin-top: 8%;
-}
-
-button {
-	background-color: #fff;
-	height: 50px;
-	width: 100%;
-}
-
-h1 {
-	font-size: 50px;
-	color: #000;
-}
-
-#interact {
-	margin-top: 1%;
-	margin-bottom: 5%;
-}
-
-.para {
-	width: 350px;
-	height: 200px;
-	position: relative;
-	float: left;
-	margin: 10px 10px 10px 10px;
 }
 
 .item {
@@ -70,15 +48,15 @@ h1 {
 	margin: 10px 10px 10px 10px;
 }
 
-#titleContainer {
-	height: 19vh;
-	margin-bottom: 1vh;
+.para {
+	width: 350px;
+	height: 200px;
+	position: relative;
+	float: left;
+	margin: 10px 10px 10px 10px;
 }
 
-#gifContainer {
-	margin-top: 1vh;
-	height: 79vh;
-}
+/* Button Section */
 
 #buttonContainer {
 	height: 100vh;
@@ -86,6 +64,33 @@ h1 {
 	top: 0;
 	background-color: #fff;
 	box-shadow: 2.5px 7.5px 7.5px #888888;
+}
+
+#userinput {
+	width: 60%;
+}
+
+#inputbuttons {
+	margin-top: 5%;
+}
+
+.topicbutton {
+	margin-bottom: 5%;
+}
+
+#inputbuttons {
+	height: 70vh;
+	overflow: scroll;
+}
+
+.topicHeader {
+	font-size: 27.5px;
+	margin-top: 8%;
+}
+
+#interact {
+	margin-top: 1%;
+	margin-bottom: 5%;
 }
 
 #dividerLine {
@@ -96,8 +101,8 @@ h1 {
 	margin-bottom: 8%;
 }
 
-#inputbuttons {
-	height: 70vh;
-	overflow: scroll;
+button {
+	background-color: #fff;
+	height: 50px;
+	width: 100%;
 }
-
